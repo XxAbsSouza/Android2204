@@ -1,0 +1,12 @@
+https://github.com/carreiras
+
+--> onResume() - quando é carregado, e quando termina esse onResume a Activity está em execução
+
+--> Como as coisas são carregadas no onResume? esses dois estão muito próximos, toda vez que necessita de atualização, chama-se o onResume
+
+--> bundle = classe responsável para ver o estado da activity 
+
+--> quando uma activity toma frente da outra, essa primeira entra em onPause() - ele começa a se preparar para parar (como se um carro estivesse desacelerando) - ainda é possível fazer algo - ainda não parou
+O onStop() é quando ela para
+
+--> view é um componente visual 
